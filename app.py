@@ -2,11 +2,13 @@
 AI Chatbot - Powered by Groq API
 A production-ready ChatGPT-like assistant for Python, SQL, and coding help.
 """
-
 import os
+import json
+import time
 import streamlit as st
+from datetime import datetime        # ← make sure this line exists
+from dotenv import load_dotenv
 from groq import Groq
-
 # Load API key - works both locally and on Streamlit Cloud
 GROQ_API_KEY = os.getenv("GROQ_API_KEY") or st.secrets.get("GROQ_API_KEY", None)
 
