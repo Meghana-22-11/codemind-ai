@@ -6,8 +6,7 @@ An AI-powered coding assistant built with Streamlit and Groq API — specialized
 
 ## 🔗 Live Demo
 
-🚀 https://codemind-ai.streamlit.app
-
+https://codemind-ai-5vulumiu7uskzdjzogazrq.streamlit.app/
 ---
 
 ## ✨ Features
